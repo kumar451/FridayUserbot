@@ -100,10 +100,3 @@ async def _(event):
     os.system("rm -rf *.mkv")
     os.system("rm -rf *.mp4")
     os.system("rm -rf *.webm")    
-    
-CMD_HELP.update({"getmusic":
-    "`.song` query or `.song` reply to song name :\
-    \nUSAGE:finds the song you entered in query and sends it"
-    "`.vsong` query or `.vsong` reply to song name :\
-    \nUSAGE:finds the video song you entered in query and sends it"
-})    
